@@ -7,7 +7,6 @@ const configuration = new Configuration({
   organization: 'org-JL4yJMw7NNCmXUx2MJWyjg04',
   apiKey: key()
 });
-
 const openai = new OpenAIApi(configuration);
 
 function App() {
@@ -17,7 +16,7 @@ function App() {
 
   
   const chats = async (e, message) => {
-  
+  werewrwer
     e.preventDefault();
     if (!message) return;
     setIsTyping(true);
@@ -45,12 +44,9 @@ function App() {
       console.log(response.body)
     }catch(e){
       console.log(e)
-    }
 
 
-    
-      // const response = await openai.createChatCompletion({
-      //   model: 'gpt-3.5-turbo',
+      //: 'gpt-3.5-turbo',
       //   max_tokens: 150,
       //   message: [
       //     {
@@ -66,6 +62,7 @@ function App() {
       //   console.log(error);
       // });
   };
+
 
   return (
     <>
@@ -113,6 +110,7 @@ function App() {
       </main>
     </>
   );
+}
 }
 
 export default App;
