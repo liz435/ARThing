@@ -1,1 +1,1 @@
-This is the repo that document what I try to do
+This is a documentation file for the project. It contains the description of the project.
